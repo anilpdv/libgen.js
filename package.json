@@ -23,6 +23,6 @@
     "request": "2.x.x"
   },
   "devDependencies": {
-    "mocha": "2.x.x"
+    "mocha": "^6.1.4"
   }
 }
