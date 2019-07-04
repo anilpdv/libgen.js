@@ -4,14 +4,10 @@
   "description": "The Library Genesis API (and more) for Node.js",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/mocha -t 100s test/**/"
+    "test": "./node_modules/.bin/mocha -t 100s test/**/",
+    "start": "node index.js"
   },
-  "keywords": [
-    "libgen",
-    "library",
-    "books",
-    "api"
-  ],
+  "keywords": ["libgen", "library", "books", "api"],
   "author": "Alex Dunn",
   "license": "MIT",
   "repository": {
@@ -19,7 +15,7 @@
     "url": "https://github.com/dunn/libgen.js.git"
   },
   "dependencies": {
-    "async": "1.x.x",
+    "async": "3.x.x",
     "request": "2.x.x"
   },
   "devDependencies": {
